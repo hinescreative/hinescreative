@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "default_owner": {
+    "seat": "foreman"
+  },
+  "entries": [
+    {
+      "path": "README.md",
+      "kind": "startup",
+      "purpose": "The public profile page: what the business builds for small trades companies, how its agent fleet works and links to public projects.",
+      "sensitivity": "standard"
+    },
+    {
+      "path": "INDEX.json",
+      "kind": "startup",
+      "purpose": "This map: what each top-level path in the folder is for and who owns it.",
+      "sensitivity": "standard"
+    },
+    {
+      "path": "tools",
+      "kind": "tools",
+      "purpose": "Holds tools/workspace, the data files the central house checkers read for this folder.",
+      "sensitivity": "standard"
+    },
+    {
+      "path": "tools/workspace",
+      "kind": "tools",
+      "purpose": "Data files the central house checkers read for this folder: the contract, the list of top-level items, the ignore probes and the outside readers. The checker programs themselves live in hinescreative/house-migration.",
+      "sensitivity": "standard"
+    }
+  ]
+}
